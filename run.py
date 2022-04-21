@@ -141,7 +141,7 @@ def spell():
 
     w.spell_animation += 1
 
-class e2(object):
+class Enemy(object):
     @staticmethod
     def enemy():
         if e.walkcount + 1 >= 27:
@@ -277,7 +277,7 @@ def display():
     pygame.draw.rect(screen, (255, 0, 0), w.spell_range)
     attack()
     spell()
-    e2.enemy()
+    Enemy.enemy()
     pygame.display.update()
 
 
