@@ -26,8 +26,8 @@ c.kaung()
 
 
 
-
-
+icon = pygame.image.load("enemy_image/ER1.png")
+pygame.display.set_icon(icon)
 pygame.display.set_caption("Warrior")
 run = True
 left = False
